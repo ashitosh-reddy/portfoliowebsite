@@ -1,0 +1,143 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family: Lato,sans-serif;
+    background-color: #fff6ee !important;
+}
+
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 0;
+}
+.navbar{
+    background-color: #fee4cf;
+    padding: 0px;
+}
+.nav-block{
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 35px;
+    margin-right: 35px;
+    padding-bottom: 20px;
+    align-items: center;
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: #c9888c !important;
+}
+.brand{
+    
+    transition:  transform .4s;
+    
+}
+.brand:hover{
+    transform: rotate(360deg);
+}
+
+/* -----------------about me------------------ */
+
+#About_Me{
+    background-color: #fee4cf;
+}
+
+.row{
+     padding-top: 130px !important;
+     padding-left: 35px;
+     padding-right: 35px; 
+}
+
+.job-title{
+    color: #6d3035;
+    line-height: 90px;
+}
+h1{
+    font-family: Montserrat,sans-serif;
+    font-size: 80px !important;
+    font-weight: 700 !important;
+}
+.text-span{
+    background-image: url(https://assets.website-files.com/606ba6cb7fddaa4aa95b526d/60709d3f1e99856920b6e912_Span%20Line.svg);
+    background-position: 50% 100%;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+.job-description{
+    font-size: 20px;
+    color: rgba(109,48,53,.8);
+    margin-top: 20px;
+    line-height: 36px;
+}
+.primary-button{
+    width: 170px;
+    height: 64px;
+    margin-right: 40px;
+    padding-right: 0;
+    padding-left: 0;
+    padding: 9px 15px;
+    color: #fff;
+    border: 0
+    
+}
+.job-button{
+    text-decoration: none;
+    display: flex;
+    align-items : center;
+    border-radius: 50px;
+    background-color: #000;
+    justify-content: space-around;
+}
+.button-link{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+.display-image{
+    border: 0;
+    vertical-align: middle;
+    display: inline-block;
+    max-width: 100%;
+
+}
+
+/* -----------------------------introduction section----------------------------------- */
+.introduction{
+    display: grid;
+    margin-top: 140px;
+    margin: 70px 35px;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 140px;
+    grid-row-gap: 16px;
+}
+.intro-box{
+    padding: 40px;
+    border-style: solid;
+    border-width: 1px 1px 8px;
+    border-color: #f1f1f1;
+    border-radius: 3px;
+    background-color: #fff;
+}
+.introduce-title{
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #000;
+}
+h3{
+    font-family: Montserrat,sans-serif;
+    font-size: 32px !important;
+    line-height: 46px !important;
+    font-weight: 600 !important;
+}
+.introduce-paragraph{
+    margin-bottom: 0;
+    color: #000;
+    font-size: 18px;
+    line-height: 32px;
+}
