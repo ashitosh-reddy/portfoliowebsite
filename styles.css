@@ -7,7 +7,11 @@ body
 {
     font-family: Lato,sans-serif;
     background-color: #fff6ee !important;
+    color: #000 !important;
+    font-size: 18px !important;
+    line-height: 32px !important;
 }
+
 
 #nav-bar{
     position: sticky;
@@ -314,4 +318,140 @@ h4{
     margin-bottom: 30px;
     color: #000;
     line-height: 1.6em;
+}
+/* -------------------------experience------------------------------ */
+#experience{
+    background-color: #fee4cf;
+}
+.exp-div{
+    padding-top: 140px;
+    padding-bottom: 140px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.exp-title{
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 0;
+    line-height: 1.4em;
+    text-align: left;
+}
+.exp-span{
+    background-image: url(https://assets.website-files.com/606ba6cb7fddaa4aa95b526d/60709d3f1e99856920b6e912_Span%20Line.svg);
+    background-position: 50% 100%;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+.exp-grid{
+    display: grid;
+    width: 100%;
+    margin-top: 80px;
+    grid-auto-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    padding-left: 50px;
+}
+.exp-block{
+    padding: 30px;
+    display: flex;
+    height: 280px;
+    max-width: 620px;
+    flex-direction: column;
+    align-items: flex-start;
+    border-style: solid;
+    border-width: 1px 1px 8px;
+    border-color: #f1f1f1;
+    border-radius: 3px;
+    background-color: #fff;
+}
+.website-link{
+    color: #f66e6e;
+}
+.date-location{
+    display: flex;
+    width: 100%;
+    margin-top: auto;
+    justify-content: space-between;
+}
+.location {
+    text-align: right;
+}
+/* ---------------------------------testimonial---------------------- */
+.t-div{
+    background-color: #000;
+}
+.t-content{
+    padding-top: 140px;
+    padding-bottom: 140px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.t-span{
+    color: #fff;
+    background-image: url(https://assets.website-files.com/606ba6cb7fddaa4aa95b526d/60709d3f1e99856920b6e912_Span%20Line.svg);
+    background-position: 50% 100%;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+.t-inner-div{
+    display: flex;
+    margin-top: 80px;
+    flex-direction: row;
+    align-items: center;
+}
+.t-tab{
+    display: flex;
+    flex-direction: column;
+}
+.t-tab-link{
+    display: flex;
+    width: 440px;
+    height: 130px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    flex-direction: row;
+    align-items: center;
+    border-style: solid;
+    border-width: 1px 1px 8px;
+    border-color: #f1f1f1;
+    border-radius: 3px;
+    background-color: #fff;
+}
+.w-tab-link {
+    position: relative;
+    vertical-align: top;
+    text-decoration: none;
+    padding: 9px 30px;
+    text-align: left;
+    cursor: pointer;
+    color: #222;
+}
+.client-name-block{
+    display: flex;
+    margin-left: 18px;
+    flex-direction: column;
+    justify-content: center;
+}
+.client-name {
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 600;
+}
+.client-position {
+    margin-top: 8px;
+    color: rgba(0,0,0,.6);
+    line-height: 16px;
+}
+.t-tab-content{
+    margin-left: 220px;
+}
+.quote-text{
+    max-width: 620px;
+    font-family: Montserrat,sans-serif;
+    color: #fff;
+    font-size: 20px;
+    line-height: 46px;
 }
